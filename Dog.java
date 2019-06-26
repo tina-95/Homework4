@@ -22,7 +22,7 @@ public class Dog extends Animal {
         }
     }
     public void swim (double distanceZ){
-        if (distanceZ>0 || distanceZ<swimLimit){
+        if (distanceZ>0 && distanceZ<swimLimit){
             System.out.println("swim:true");
         }
     }
